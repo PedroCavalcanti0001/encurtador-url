@@ -8,7 +8,7 @@ Aplicação simples utilizando web scrapping para encurtar urls a partir do site
 
 ## Como utilizar
 
-Para encurtar urls é simples, basta chamar UrlShortner#get passando como parametro a url a ser encutada. Caso aconteça algum problema e a url não seja encurtada, o retorno é a propria url.
+Basta chamar UrlShortner#get passando como parametro a url a ser encutada. Caso aconteça algum problema e a url não seja encurtada, o retorno é a propria url.
 
 ## Exemplo
 
