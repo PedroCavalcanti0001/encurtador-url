@@ -13,12 +13,12 @@ Para encurtar urls é simples, basta chamar UrlShortner#get passando como parame
 ## Exemplo
 
 ```
-        try {
-            String s = UrlShortner.get("Url-a-ser-encurtada.com");
-            //Resultado encurtador.com.br/ikpM2
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+try {
+	String s = UrlShortner.get("Url-a-ser-encurtada.com");
+	//Resultado encurtador.com.br/ikpM2
+} catch (IOException e) {
+	e.printStackTrace();
+}
 ```
 
 ## Maven
