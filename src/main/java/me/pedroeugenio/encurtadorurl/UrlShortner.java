@@ -17,6 +17,5 @@ public class UrlShortner {
         Document document = connection.post();
         Optional<Element> element = document.body().select("#shortenurl").stream().findFirst();
         return element.map(value -> value.attr("value")).orElse(longUrl);
-
     }
 }
