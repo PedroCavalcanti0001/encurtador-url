@@ -14,10 +14,10 @@ Para encurtar urls é simples, basta chamar UrlShortner#get passando como parame
 
 ```
 try {
-	String s = UrlShortner.get("Url-a-ser-encurtada.com");
-	//Resultado encurtador.com.br/ikpM2
+    String s = UrlShortner.get("Url-a-ser-encurtada.com");
+    //Resultado encurtador.com.br/ikpM2
 } catch (IOException e) {
-	e.printStackTrace();
+    e.printStackTrace();
 }
 ```
 
